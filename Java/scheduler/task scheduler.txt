@@ -1,0 +1,15 @@
+the idea:
+I want to schedule a specific task to happen at a specific time
+the time can be far into the future, so I wouldn't like it to be saved on memory - saving on disk is preferrable
+I want to load a reasonable amount of tasks to run each time into the memory and keep other tasks on disk
+
+I look at the timeline, and at each moment there may be a task scheduled
+occasionally I look forward at upcoming tasks in the timeline and I decide which tasks should I load into memory
+
+
+what do I want to implement at the basic level?
+- option to schedule a task: given a time and a task, we schedule the task to happen at the given time
+	a task is a duo of:
+	1. a code which should be run
+	2. parameters to run that code with 
+- 
